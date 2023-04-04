@@ -2,6 +2,9 @@ import { useState } from "react";
 
 import NavBar from "./components/NavBar";
 import WhyUseLangProgLandingPanel from "./components/WhyLangProgLandingPanel";
+import HowItWorksPanel from "./components/HowItWorksPanel";
+import FeaturesPanel from "./components/FeaturesPanel";
+import BottomBar from "./components/BottomBar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,8 +14,9 @@ function App() {
       <div>
         <NavBar />
         <WhyUseLangProgLandingPanel />
-
-        <h1>Lang-Prog-Site</h1>
+        <HowItWorksPanel />
+        <FeaturesPanel />
+        <BottomBar />
       </div>
     </div>
   );
